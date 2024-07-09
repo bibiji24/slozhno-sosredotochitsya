@@ -66,6 +66,10 @@
   color: var(--accent-color);
 }
 
+.theme_dark .image-block-heading {
+  color: var(--heading-text-color);
+}
+
 .theme_dark .footer::before {
   border-block-end: 1px solid var(--accent-color);
   border-inline-start: 1px solid var(--accent-color);
