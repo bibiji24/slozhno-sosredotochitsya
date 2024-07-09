@@ -6,11 +6,11 @@
 
 :root .theme_dark {
   --bg-color: #000028;
-  --text-color: #F1B2CE;
+  --text-color: #f1b2ce;
   --heading-text-color: #000028;
-  --accent-color: #FF0070;
-  --accent-color-40: #FF007066;
-  --header-title-color: #DB00FF;
+  --accent-color: #ff0070;
+  --accent-color-40: #ff007066;
+  --header-title-color: #db00ff;
   --main-font: 'IBM Plex Mono';
 }
 
@@ -24,17 +24,15 @@
   background-image: url(../images/cover-image-dark.png);
 }
 
-
 .theme_dark .header::before {
   border-block-end: 1px solid var(--accent-color);
   border-inline-start: 1px solid var(--accent-color);
 }
 
-.theme_dark .header::after{
+.theme_dark .header::after {
   border-inline-end: 1px solid var(--accent-color);
   border-block-start: 1px solid var(--accent-color);
 }
-
 
 .theme_dark .header__decoration,
 .theme_dark .header__decoration::before,
@@ -45,7 +43,6 @@
 .theme_dark .header__theme-menu-button {
   color: var(--accent-color);
 }
-
 
 .theme_dark .header__theme-menu-button:hover {
   border: 1px solid var(--accent-color-40);
@@ -69,14 +66,12 @@
   color: var(--accent-color);
 }
 
-
 .theme_dark .footer::before {
   border-block-end: 1px solid var(--accent-color);
   border-inline-start: 1px solid var(--accent-color);
 }
 
 .theme_dark .footer::after {
-    border-block-start: 1px solid var(--accent-color);
+  border-block-start: 1px solid var(--accent-color);
   border-inline-end: 1px solid var(--accent-color);
 }
-

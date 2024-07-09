@@ -4,10 +4,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "check": "prettier --check '**/*.{html,css,js}'",
-    "format": "prettier --write '**/*.{html,css,js}'",
-    "lint": "stylelint '**/*.css'",
-    "lintfix": "stylelint '**/*.css' --fix",
+    "check": "npx prettier --check './**/*.{html,css,js}'",
+    "format": "npx prettier --write './**/*.{html,css,js}'",
+    "lint": "npx stylelint './**/*.css'",
+    "lintfix": "npx stylelint './**/*.css' --fix",
     "checkAll": "npm run check && npm run lint",
     "fixAll": "npm run format && npm run lintfix"
   },

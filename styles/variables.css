@@ -5,11 +5,11 @@
 
 :root {
   --bg-color: #000028;
-  --text-color: #F1B2CE;
+  --text-color: #f1b2ce;
   --heading-text-color: #000028;
-  --accent-color: #FF0070;
-  --accent-color-40: #FF007066;
-  --header-title-color: #DB00FF;
+  --accent-color: #ff0070;
+  --accent-color-40: #ff007066;
+  --header-title-color: #db00ff;
   --main-font: 'IBM Plex Mono';
   --xs-padding: 10px;
   --s-padding: 20px;
