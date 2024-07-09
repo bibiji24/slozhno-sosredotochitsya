@@ -7,11 +7,12 @@
 :root .theme_dark {
   --bg-color: #000028;
   --text-color: #f1b2ce;
+  --header-decoration-color: #ff0070;
+  --header-title-color: #db00ff;
+  --content-heading-color: #ff0070;
   --heading-text-color: #000028;
   --accent-color: #ff0070;
   --accent-color-40: #ff007066;
-  --header-title-color: #db00ff;
-  --main-font: 'IBM Plex Mono';
 }
 
 .page.theme_dark {
@@ -19,63 +20,11 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  color: var(--text-color);
-  background-color: var(--bg-color);
   background-image: url(../images/cover-image-dark.png);
-}
-
-.theme_dark .header::before {
-  border-block-end: 1px solid var(--accent-color);
-  border-inline-start: 1px solid var(--accent-color);
-}
-
-.theme_dark .header::after {
-  border-inline-end: 1px solid var(--accent-color);
-  border-block-start: 1px solid var(--accent-color);
 }
 
 .theme_dark .header__decoration,
 .theme_dark .header__decoration::before,
 .theme_dark .header__decoration::after {
   display: block;
-}
-
-.theme_dark .header__theme-menu-button {
-  color: var(--accent-color);
-}
-
-.theme_dark .header__theme-menu-button:hover {
-  border: 1px solid var(--accent-color-40);
-}
-
-.theme_dark .header__theme-menu-button:focus {
-  outline: none;
-}
-
-.theme_dark .header__theme-menu-button:focus-visible {
-  outline: none;
-  border-block-end: 1px solid var(--accent-color);
-}
-
-.theme_dark .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
-  pointer-events: none;
-}
-
-.theme_dark .content__heading {
-  color: var(--accent-color);
-}
-
-.theme_dark .image-block-heading {
-  color: var(--heading-text-color);
-}
-
-.theme_dark .footer::before {
-  border-block-end: 1px solid var(--accent-color);
-  border-inline-start: 1px solid var(--accent-color);
-}
-
-.theme_dark .footer::after {
-  border-block-start: 1px solid var(--accent-color);
-  border-inline-end: 1px solid var(--accent-color);
 }
